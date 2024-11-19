@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agriculture Consultancy - Submit Query</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="query-container">
+    <header class="header">
+      <h1>Agriculture Consultancy</h1>
+      <p>Submit your query to get expert advice</p>
+    </header>
+    <main class="query-card">
+      <div class="form-section">
+        <h2>Describe Your Problem or Query</h2>
+        <form action="/submit-query" method="post">
+          <div class="form-group">
+            <textarea id="query" name="query" placeholder="Enter your problem or query here..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit Query</button>
+        </form>
+      </div>
+      <div class="suggested-queries">
+        <h3>Suggested Queries</h3>
+        <ul>
+          <li>How to optimize irrigation for small-scale farming?</li>
+          <li>What are the latest advancements in agri-tech?</li>
+          <li>Best practices for improving soil fertility?</li>
+        </ul>
+      </div>
+      <div class="categories">
+        <h3>Consultancy Categories</h3>
+        <div class="category-list">
+          <span class="category">Agri Economy</span>
+          <span class="category">Agri Tech</span>
+          <span class="category">Sustainable Farming</span>
+          <span class="category">Crop Management</span>
+          <span class="category">Irrigation Systems</span>
+          <span class="category">Pest Control</span>
+          <span class="category">Livestock Management</span>
+          <span class="category">Soil Health</span>
+          <span class="category">Organic Farming</span>
+          <span class="category">Agri Supply Chains</span>
+        </div>
+      </div>
+      
+      <div class="additional-info">
+        <h3>Additional Resources</h3>
+        <p>Check out our <a href="/resources">resource center</a> for articles, guides, and tools.</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

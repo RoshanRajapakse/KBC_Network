@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agriculture Consultancy - Suggested Consultants</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="results-container">
+    <header class="header">
+      <h1>Suggested Consultants</h1>
+      <p>Choose the best consultant for your query</p>
+    </header>
+    
+    <!-- Search and Filter Section -->
+    <div class="filter-bar">
+      <input type="text" class="search-bar" placeholder="Search consultants by name or expertise...">
+      <select class="sort-dropdown">
+        <option value="" disabled selected>Sort by Expertise</option>
+        <option value="Agri Economy">Agri Economy</option>
+        <option value="Agri Tech">Agri Tech</option>
+        <option value="Sustainable Farming">Sustainable Farming</option>
+        <option value="Pest Control">Pest Control</option>
+      </select>
+    </div>
+    
+    <!-- Consultants List -->
+    <main class="consultants-list">
+      <!-- Consultant Profiles -->
+      <div class="consultant-card">
+        <img src="avatar.webp" alt="Consultant Avatar">
+        <h2>Dr. Sarah Green</h2>
+        <p><strong>Expertise:</strong> Agri Economy, Sustainable Farming</p>
+        <p><strong>Qualifications:</strong> PhD in Agricultural Economics</p>
+        <p><strong>Completed Projects:</strong> 50+ projects in crop yield optimization</p>
+        <button class="select-btn">Select Consultant</button>
+      </div>
+      <div class="consultant-card">
+        <img src="avatar.webp" alt="Consultant Avatar">
+        <h2>Mr. John Brown</h2>
+        <p><strong>Expertise:</strong> Agri Tech, Irrigation Systems</p>
+        <p><strong>Qualifications:</strong> MSc in Agri Technology</p>
+        <p><strong>Completed Projects:</strong> Developed smart irrigation systems for 30 farms</p>
+        <button class="select-btn">Select Consultant</button>
+      </div>
+      <!-- Additional consultants (repeat similar structure) -->
+      <!-- Add eight more consultant profiles using the same structure -->
+    </main>
+  </div>
+</body>
+</html>
